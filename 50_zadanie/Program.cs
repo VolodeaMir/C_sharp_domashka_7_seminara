@@ -67,6 +67,7 @@ if ((x >= rows) || (y >= colum))
 }
 else
 {
+    Console.WriteLine($"Гавное не забыть что нумирация индекса начинаеться с НУЛЯ а не с 1");
     Console.WriteLine($"По индексу [{x}, {y}] находится элемент = {result[x, y]}");
 }
 
